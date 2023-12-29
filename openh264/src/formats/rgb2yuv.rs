@@ -2,7 +2,7 @@ use crate::formats::YUVSource;
 
 /// Converts RGB to YUV data.
 pub struct YUVBuffer {
-    yuv: Vec<u8>,
+    pub yuv: Vec<u8>,
     width: usize,
     height: usize,
 }
